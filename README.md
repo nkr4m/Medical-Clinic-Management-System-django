@@ -1,4 +1,4 @@
 # Medical-Clinic-Management-System-Django
 
-Register Page
+## Register Page
 <img src="https://raw.githubusercontent.com/nkr4m/Medical-Clinic-Management-System-django/master/Project%20preview/01.%20Register%20Page.png" width="80%"></img> 
