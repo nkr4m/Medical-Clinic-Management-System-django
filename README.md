@@ -7,5 +7,8 @@
 ## Admin Dashboard
 <img src="https://raw.githubusercontent.com/nkr4m/Medical-Clinic-Management-System-django/master/Project%20preview/03.%20Dashboard%20%7C%20admin.png" width="100%"></img>
 
+## Admin Statistics
+<img src="https://raw.githubusercontent.com/nkr4m/Medical-Clinic-Management-System-django/master/Project%20preview/05.%20Stats%20%7C%20admin.png" width="100%"></img>
+
 
 
