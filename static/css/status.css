@@ -1,0 +1,27 @@
+
+
+#total-orders{
+    background-color: rgb(52, 58, 64)!important;
+}
+
+
+#orders-delivered{
+    background-color: rgb(52, 58, 64)!important;
+}
+
+#orders-pending{
+    background-color: rgb(52, 58, 64)!important;
+}
+
+.stat1{
+    font-size: 35px ;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(52, 58, 64)!important;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#orders{
+    background-color: rgb(65, 73, 82)!important ;
+}

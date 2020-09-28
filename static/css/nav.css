@@ -1,0 +1,27 @@
+.navbar{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    height: 100px;
+
+}
+
+.navbar-nav{
+    position: relative;
+    left:0%;
+}
+
+.nav-item{
+    margin: 3px;
+
+}
+
+.navbar-nav{
+    top:5px;    
+}
+
+.message{
+    color: white;
+}
+
+

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block title %} Medications {% endblock title %}
+
+{% block body %}
+{% include 'nav.html' %}
+
+		<br>
+
+		<div class="r11-row">
+			<div class="col-10">
+				<div class="card card-body">
+					<div class="head">MEDICATIONS AVAILABLE </div>
+				</div>
+				<div class="card card-body">
+					<table class="table">
+						<tr>
+							<th>Treatment</th>
+							<th>Category</th>
+							<th>Cost </th>
+						</tr>
+
+						{% for i in treatment %}
+							<tr>
+							<td> {{i.name}} </td>
+							<td>{{i.category}} </td>
+							<td>  {{i.cost}} </td>
+							</tr>
+						{% endfor%}	
+						
+					</table>
+				</div>
+			</div>
+			
+		</div>
+
+
+{% endblock body %}

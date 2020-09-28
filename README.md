@@ -1,1 +1,1 @@
-# Medical-Clinic-Management-System-django
+# Medical-Clinic-Management-System-Django

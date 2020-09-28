@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %} User {% endblock title %}
+
+{% block body %}
+
+{% include 'nav.html' %}
+
+
+
+<br>
+<div class="r11-row">
+	<div class="col-10">
+		<div class="card card-body">
+			<div class="head"> Appoinment DETAILS </div>
+			<table class="table table-sm">
+				<tr>
+					<th>Treatment</th>
+					<th>Category</th>
+					<th>Date Booked</th>
+					<th>Status</th>
+
+				</tr>
+
+				{% for order in appoinments %}
+
+				<tr>
+					<td>{{order.treatment}}</td>
+					<td>{{order.treatment.category}}</td>
+					<td>{{order.date_created}}</td>
+					<td>{{order.status}}</td>
+
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+</div>
+
+
+
+{% endblock body %}
